@@ -51,5 +51,24 @@ output:
 * include = TRUE or FALSE :  whether to display whole code chunk in output document
   include = FALSE can replace(echo=FALSE, results="hide", warning=FALSE, message=FALSE)
 
+###
 
+## 11 February 2022
+
+* HDF5 - Hieracharchal Data Format
+  ** create h5 files **h5createfile()**
+  ** create groups and subgroups within the file **h5createGroup*
+  ** write matrices and arrays to groups using **h5write()**
+  ** read h5 files using **h5read()**
+
+## 12 February 2022
+
+* Git command **git mv oldfilename newfilename** to change file names in the repository
+
+* Different ways to get data from webpages: 
+  ** parsing with XML (example didn't work - Error: failed to load external entity. Need to revisit); 
+  ** using htmlTreeParse 
+  ** command **xpathSApply()** to extract data of interest only
+  ** see for more info: http://www.omegahat.net/RSXML/shortIntro.pdf
+  ** command **GET** to extract from httr package
   
