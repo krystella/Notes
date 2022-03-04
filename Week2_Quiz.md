@@ -50,8 +50,8 @@ Replace your key and secret below.
 
 ```{r}
 myapp <- oauth_app(appname = "JH_Course3_Week2_Quiz",
-  key = "50a3787c29ebfe115985",
-  secret = "9a2513ab48853301714727fdda3810234326ab3e"
+  key = "<Client Key>",
+  secret = "<Client Secret>"
 )
 
 ```
