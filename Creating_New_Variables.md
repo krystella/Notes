@@ -5,7 +5,7 @@ date: "3/6/2022"
 output:
   pdf_document: default
   html_document: default
-subtite: Getting and Cleaning Data - Week 3
+subtitle: Getting and Cleaning Data - Week 3
 ---
 
 ```{r setup, include=FALSE}
