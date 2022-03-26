@@ -1,11 +1,11 @@
----
-title: "Editing Text Variables"
-author: "Krystella Rattan"
-date: "3/15/2022"
-output:
-  pdf_document: default
-  html_document: default
-subtitle: Getting and Cleaning Data - Week 4
+Title: Editing Text Variables
+
+Subtitle: Getting and Cleaning Data - Week 4
+
+Author: Krystella Rattan
+
+Date: 15-March-2022
+
 ---
 
 ```{r setup, include=FALSE}
