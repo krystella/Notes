@@ -1,18 +1,14 @@
----
-title: "Creating New Variables"
-author: "Krystella Rattan"
-date: "3/6/2022"
-output:
-  pdf_document: default
-  html_document: default
-subtitle: Getting and Cleaning Data - Week 3
----
+Title: Creating New Variables
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
-```
+Subtitle: Getting and Cleaning Data - Week 3
 
-Using the dataset 'restData' downloaded in previous lecture
+Author: Krystella Rattan
+
+Date: 6-March-2022
+
+
+These notes refer to the dataset 'restData' downloaded in previous lecture
+
 
 ### Creating Sequences
 
