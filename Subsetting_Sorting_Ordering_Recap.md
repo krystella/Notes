@@ -1,15 +1,18 @@
----
-title: "Subsetting and Sorting"
-author: "Krystella Rattan"
-date: "3/4/2022"
-output: html_document
+Title: Subsetting and Sorting
+
+Subtitle: Getting and Cleaning Data - Week 3
+
+Author: Krystella Rattan
+
+Date: 4-March-2022
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## 1. Review of Subsetting and Sorting
+## Review of Subsetting and Sorting
 
 Create a data frame in R with three variables (columns), where the elements in 
 each column are randomized and column 2 "var2" contains two missing numbers
