@@ -1,11 +1,11 @@
----
-title: "Week 3 Quiz"
-author: "Krystella Rattan"
-date: "3/13/2022"
-output:
-  pdf_document: default
-  html_document: default
-subtitle: Getting and Cleaning Data
+Title: Week 3 Quiz
+
+Subtitle: Getting and Cleaning Data
+
+Author: Krystella Rattan
+
+Date: 13-March-2022
+
 ---
 
 ```{r setup, include=FALSE}
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 ```
 
 
-## Q.1 
+### Q.1 
 
 The ACS distributes downloadable data about US communities. Download the 2006 microdata survey about housing for the state of Idaho using the download.file() from here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv
@@ -56,8 +56,10 @@ which(agricultureLogical)
 
 Ans.: 125, 238, 262
 
+---
 
-## Q.2
+### Q.2
+
 Using the jpeg package read in the following picture of your instructor into R
 https://d396qusza40orc.cloudfront.net/getdata%2Fjeff.jpg
 
@@ -85,8 +87,9 @@ answer
 Ans.: -15258512 -10575416 
 Ans.: -(15258512+638) -10575416 = -15259150 -10575416
 
+---
 
-## Q.3
+### Q.3
 
 Load the Gross Domestic Product data for the 190 ranked countries in this data set:
 https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FGDP.csv
@@ -175,7 +178,9 @@ sortedDF[13, "Country"]
 
 Answer: 189 rows; St. Kitts and Nevis
 
-## Q.4 
+---
+
+### Q.4 
 
 What is the average GDP ranking for the "High Income: OECD" and "High Income: non=OECD" group?
 
@@ -204,8 +209,9 @@ gdp_edu_DF %>%
 
 Answer: 32.96667, 91.91304	
 
+---
 
-## Q.5 
+### Q.5 
 
 Cut the GDP ranking into 5 separate quantile groups. Make a table versus Income.Group. How many countries are Lower middle income but among the 38 nations with highest GDP?
 
