@@ -28,6 +28,7 @@ splitNames[123]
 # Answer: [1] ""   "15"
 ```
 
+---
 
 ### Q.2 
 
@@ -55,6 +56,7 @@ mean(new_gdp, na.rm = TRUE)
 
 ```
 
+---
 
 ### Q.3
 
@@ -72,6 +74,7 @@ grep("^United", countryNames, value = TRUE)
 
 ```
 
+---
 
 ### Q.4
 
@@ -98,6 +101,7 @@ length(grep("Fiscal year end: June", gdp_edu$Special.Notes))
 
 ```
 
+---
 
 ### Q.5
 
