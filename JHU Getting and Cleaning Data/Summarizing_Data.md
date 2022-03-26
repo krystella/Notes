@@ -1,11 +1,12 @@
----
-title: "Summarizing Data"
-author: "Krystella Rattan"
-date: "3/6/2022"
-output:
-  pdf_document: default
-  html_document: default
-subtitle: Getting and Cleaning Data - Week 3
+Title: Summarizing Data
+
+Subtitle: Getting and Cleaning Data - Week 3
+
+Author: Krystella Rattan
+
+Date: 6-March-2022
+
+
 ---
 
 ```{r setup, include=FALSE}
