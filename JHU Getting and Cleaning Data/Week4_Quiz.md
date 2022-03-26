@@ -1,17 +1,16 @@
----
-title: "Week 4 Quiz"
-author: "Krystella Rattan"
-date: "3/17/2022"
-output:
-  pdf_document: default
-  html_document: default
+Title: Week 4 Quiz
+
+Author: Krystella Rattan
+
+Date: 17-March-2022
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
 ```
 
-## Q.1
+### Q.1
 
 The ACS distributes downloadable data about the US communities. Download the 2006 microdata survey about housing for the state of Idaho using download.file() from here (already downloaded for previous assignment) and load the data into R.
 
@@ -30,7 +29,7 @@ splitNames[123]
 ```
 
 
-## Q.2 
+### Q.2 
 
 Load the GDP data for the 190 ranked countries in this data set (already downloaded for previous assignment). Remove the commas from the GDP numbers in millions pf dollars and average them. What is the average?
 
@@ -57,7 +56,7 @@ mean(new_gdp, na.rm = TRUE)
 ```
 
 
-## Q.3
+### Q.3
 
 In the data set from Q.2, what is a regular expression that would allow you to count the number of countries whose name begins with "United"? Assume that the variable with the country names in it is named "countryNames". How many countries begin with United?
 
@@ -74,7 +73,7 @@ grep("^United", countryNames, value = TRUE)
 ```
 
 
-## Q.4
+### Q.4
 
 (Using previously downloaded GDP and EDU data). Match the data based on the country shortcode. Of the countries for which the end fiscal year is available, how many end in June?
 
@@ -100,7 +99,7 @@ length(grep("Fiscal year end: June", gdp_edu$Special.Notes))
 ```
 
 
-## Q.5
+### Q.5
 
 You can use the quantmod package to get historical stock prices for publicly traded companies on the NASDAQ and NYSE. Use the following code to download data on Amazon's stock price and get the times the data was sampled.
 How many values were collected in 2012? How many values were collected on Mondays in 2012?
