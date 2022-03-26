@@ -1,10 +1,9 @@
----
-title: "Week 2 Quiz"
-author: "Krystella Rattan"
-date: "2/14/2022"
-output:
-  pdf_document: default
-  html_document: default
+Title: Week 2 Quiz
+
+Author: Krystella Rattan
+
+Date: 14-February-2022
+
 ---
 
 ```{r setup, include=FALSE}
@@ -12,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## Quiz Q.1
+### Q.1
 
 ```{r}
 # install.packages("jsonlite")
@@ -26,7 +25,7 @@ library(httr)
 
 ```
 
-### 1. Find OAuth settings for github:
+Find OAuth settings for github:
 
 http://developer.github.com/v3/oauth/
 
@@ -39,8 +38,7 @@ oauth_endpoints("github")
 
 ```
 
-
-### 2. To make your own application, register at
+To make your own application, register at
 
 https://github.com/settings/developers. Use any URL for the homepage URL
 
@@ -56,14 +54,14 @@ myapp <- oauth_app(appname = "JH_Course3_Week2_Quiz",
 
 ```
 
-### 3. Get OAuth credentials
+Get OAuth credentials
 
 ```{r}
 github_token <- oauth2.0_token(oauth_endpoints("github"), myapp)
 
 ```
 
-### 4. Use API
+Use API
 
 ```{r}
 knitr::opts_chunk$set(echo = TRUE, results = "hide")
@@ -75,7 +73,7 @@ content(req)
 
 ```
 
-### OR:
+OR:
 
 ```{r}
 knitr::opts_chunk$set(echo = TRUE, eval=FALSE, results = "hide")
@@ -104,10 +102,11 @@ gitDF[gitDF$fullname == "jtleek/datasharing", "created_at"]
 
 Ans.: 2013-11-07T13:25:07Z
 
+---
 
-## Q2. The sqldf package allows for execution of SQL commands on R data frames. 
-## We will use the sqldf package to practice the queries we might send with the 
-## dbSendQuery command in RMySQL. 
+### Q2. 
+
+The sqldf package allows for execution of SQL commands on R data frames. We will use the sqldf package to practice the queries we might send with the dbSendQuery command in RMySQL. 
 
 Download the American Community Survey data and load it into an R object called 
 
@@ -188,9 +187,11 @@ sqldf ("select pwgtp1 from acs")
 
 Ans.: A
 
+---
 
-## Q.3 Using the same data frame you created in the previous problem, what is 
-## the equivalent function to unique(acs$AGEP)
+### Q.3 
+
+Using the same data frame you created in the previous problem, what is the equivalent function to unique(acs$AGEP)
 
 ```{r}
 # This can be done by comparing the result of the function unique(acs$AGEP) with
@@ -229,9 +230,11 @@ produced a dataframe. Although the results matched correctly, **identical()**
 returned "FALSE" since the format was not the same. Adjusting the format to read
 as 'R Console' (B$AGEP) returned a positive match "TRUE"
 
+---
 
-## Q.4 How many characters are in the 10th, 20th, 30th and 100th lines of HTML 
-## from this page:
+### Q.4 
+
+How many characters are in the 10th, 20th, 30th and 100th lines of HTML from this page:
 http://biostat.jhsph.edu/~jleek/contact.html
 (Hint: the nchar() function in R may be helpful)
 
@@ -265,9 +268,11 @@ c(nchar(HTML[10]), nchar(HTML[20]), nchar(HTML[30]), nchar(HTML[100]))
 
 Ans.: 45 31 7 25
 
+---
 
-## Q.5 Read this data set into R and report the sum of the numbers in the fourth
-## of the nine columns.
+### Q.5 
+
+Read this data set into R and report the sum of the numbers in the fourth of the nine columns.
 https://d396qusza40orc.cloudfront.net/getdata%2Fwksst8110.for
 Original Data: https://www.cpc.ncep.noaa.gov/data/indices/wksst8110.for
 (Hint: This is a fixed width file format)
