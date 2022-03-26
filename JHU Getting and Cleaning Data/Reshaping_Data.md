@@ -1,9 +1,11 @@
----
-title: "Reshaping Data"
-subtitle: "Getting and Cleaning Data - Week 3"
-author: "Krystella Rattan"
-date: "3/8/2022"
-output: html_document
+Title: Reshaping Data
+
+Subtitle: Getting and Cleaning Data - Week 3
+
+Author: Krystella Rattan
+
+Date: 8-March-2022
+
 ---
 
 ```{r setup, include=FALSE}
