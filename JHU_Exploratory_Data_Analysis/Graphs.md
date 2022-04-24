@@ -10,7 +10,7 @@ ________________________________________________________________________________
 
 ## Principles of Graphs
 
-_These notes are taken from the lecture "Principles of Analytic Graphics" by Dr. Roger Peng, based on the work by Edward_
+_These notes are taken from the lecture "Principles of Analytic Graphics" by Dr. Roger Peng, based on the work by Edward Tufte "Beautiful Evidence" (2006)_
 
 ### 1. Show comparisons
 
